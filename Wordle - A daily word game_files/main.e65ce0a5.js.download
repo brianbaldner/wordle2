@@ -1369,4 +1369,4 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                         }
                     }
                 }]), t
-            }(c(HTMLElement));
+            }(c(HTMLElement));}
