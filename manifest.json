@@ -1,6 +1,6 @@
 {
-  "short_name": "Wordle",
-  "name": "Wordle",
+  "short_name": "Wordle 2",
+  "name": "Wordle 2",
   "icons": [
     {
       "src": "/wordle/images/wordle_logo_48x48.png",
@@ -38,9 +38,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://www.powerlanguage.co.uk/wordle/",
+  "start_url": "https://brianbaldner.github.io/wordle2/",
   "background_color": "#6aaa64",
   "display": "standalone",
   "theme_color": "#6aaa64",
-  "description": "A daily word game"
+  "description": "Wordle with infinite rounds"
 }
