@@ -1128,7 +1128,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
               isStreak: !!this.lastCompletedTs && 1 === Na(new Date(this.lastCompletedTs), new Date),
               numGuesses: this.rowIndex
             }), ja({
-              lastCompletedTs: 1612230752000
+              lastCompletedTs: Date.now() - 86400
             }), this.gameStatus = l ? es : as, Ca("event", "level_end", {
               level_name: Wa(this.solution),
               num_guesses: this.rowIndex,
@@ -1140,7 +1140,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
               evaluations: this.evaluations,
               solution: this.solution,
               gameStatus: this.gameStatus,
-              lastPlayedTs: 1612230752000
+              lastPlayedTs: Date.now() - 86400
             })
           }
         }
