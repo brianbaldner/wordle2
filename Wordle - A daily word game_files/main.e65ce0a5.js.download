@@ -985,7 +985,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
   }
 
   function Da(e) {
-    return La[e]
+    return Ta[e]
   }
 
   function Ga(e) {
